@@ -1,66 +1,71 @@
-    <!DOCTYPE html>
-    <html lang="pt-br">
-    <head>
-    
-        <link rel="stylesheet" href="style.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <div class="seletor">
-        <font size="7" ><h1>Os Quatro Maiores Times do Brasil</h1></font>
-        <br>
-        <h2>
-            <ol><li> <font size="5" >
-                <a href="https://www.corinthians.com.br/"><h2>Corinthians</h2></a></font></li><br>
-                <div class="time1"><table>
-                    <tr>
-                    <td><img src="https://logodetimes.com/times/corinthians/logo-corinthians-4096.png"
-                width="320" height="320"/></td>
-                <td>O Sport Club Corinthians Paulista é um clube poliesportivo brasileiro da cidade de São Paulo, capital do estado de São Paulo. Foi fundado como uma equipe de futebol no dia 1 de setembro de 1910 por um grupo de operários do bairro Bom Retiro. Seu nome foi inspirado no Corinthian FC de Londres, que excursionava pelo Brasil e se tornou famoso mundialmente a partir dos anos 2000.
-                    <br>
-
-                </td>
-                    </tr>
-                    </table>
-                </div>
-            <li><font size="5" >
-                <a href="http://www.saopaulofc.net/spfc"><h2>São Paulo</h2></a></font></li><br>
-            <div class="time1"><table>
-                <tr>
-                <td><img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2026.png"
-            width="300" height="300"/></td>
-            <td>O São Paulo Futebol Clube, situado na cidade de São Paulo, capital do estado homônimo, foi fundado em 25 de janeiro de 1930 e é um dos clubes mais bem sucedidos do Brasil. O clube tem três Mundiais (recorde absoluto a nível nacional), três Copas Libertadores (recorde nacional compartilhado com Flamengo, Grêmio, Palmeiras e Santos), uma Copa Sul-Americana, seis Campeonatos Brasileiros e vinte e dois Campeonatos Paulistas. A equipe também figura entre as três melhores do continente americano quando se trata de conquistas internacionais: 12 conquistas que os tornam terceiros atrás somente de Boca Juniors e Independiente.</td>
-                </tr>
-                </table>
-            </div>
-        </li>
-            <li><font size="5" >
-                <a href="https://www.santosfc.com.br/"><h2>Santos</h2></a></font></li><br>
-            <div class="time1"><table>
-                <tr>
-                <td><img src="https://media.santosfc.com.br/wp-content/uploads/2022/04/cropped-Asset-2-1.png"
-            width="300" height="300"/></td>
-            <td>O Santos Futebol Clube é uma equipe com história, glórias e muita tradição. Fundado em 14 de abril de 1912 na cidade de Santos, São Paulo, o time já foi responsável por catapultar dois grandes fenômenos esportivos: Pelé e Neymar. Apesar dos muitos títulos conquistados nacionalmente e internacionalmente, o clube é conhecido mundialmente como o que revelou o Rei do Futebol.</td>
-                </tr>
-                </table>
-            </div>
-        </li>
-            <li><font size="5" >
-                <a href="https://www.palmeiras.com.br/"><h2>Palmeiras</h2></a></font></li><br>
-            <div class="time1"><table>
-                <tr>
-                <td><img src="https://logodetimes.com/times/palmeiras/logo-palmeiras-2048.png"
-            width="300" height="300"/></td>
-            <td>O Sociedade Esportiva Palmeiras, popularmente conhecido como Palmeiras, é um clube poliesportivo brasileiro da cidade de São Paulo, capital do estado homônimo. Fundado em 1914, seus símbolos oficiais são verde e branco – a cor vermelha foi retirada durante a Segunda Guerra Mundial por pressão do governo nacional.</td>
-                </tr>
-                </table>
-            </div>
-        </div>
-    </li>
-        </ol>
-        </h2>
-
-    </body>
-    </html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias Esportivas</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        article {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        h2 {
+            margin: 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Notícias Esportivas</h1>
+    </header>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="futebol.html">Futebol</a>
+        <a href="basquete.html">Basquete</a>
+        <a href="tenis.html">Tênis</a>
+    </nav>
+    <section>
+        <article>
+            <h2>Título da Notícia 1</h2>
+            <p>Texto da notícia 1...</p>
+            <p><a href="#">Leia mais</a></p>
+        </article>
+        <article>
+            <h2>Título da Notícia 2</h2>
+            <p>Texto da notícia 2...</p>
+            <p><a href="#">Leia mais</a></p>
+        </article>
+        <!-- Adicione mais artigos conforme necessário -->
+    </section>
+</body>
+</html>
