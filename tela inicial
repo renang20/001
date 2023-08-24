@@ -3,13 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/17e8094b89.js" crossorigin="anonymous"></script>
     <title>Portal do Futebol - Notícias</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        /* Estilos para a navegação de abas ... */
-        /* ... (seus estilos) ... */
-
-        /* Estilos para o layout de empilhamento */
         .news-card {
             display: flex;
             gap: 10px;
@@ -32,36 +29,43 @@
 
 <header>
     <nav>
-        <h1><a href="index.html">Portal do Futebol</a></h1>
+        <h1><a href="index.html">Portal dos Esportres</a></h1>
         <div class="search-container">
+        </nav>
+        <nav>
+            <div class="botao">
+                <button class="custom-search-button">
+                    <i class="fas fa-search"></i>
+                </button>
             <input type="text" class="search-box" placeholder="Pesquisar">
-            <button class="custom-search-button">
-                <i class="fas fa-search"></i>
-            </button>
+        </div>
+        </div>
         </div>
     </nav>
 </header>
 
 <nav class="tab-navigation">
+    <a href="#menu"><i class="fas fa-bars"></i> Menu</a>
     <a href="#noticias"><i class="fas fa-newspaper"></i> Notícias</a>
     <a href="#campeonatos"><i class="fas fa-trophy"></i> Campeonatos</a>
     <a href="jogosdehoje.html"><i class="fas fa-futbol"></i> Jogos de Hoje</a>
-</nav>
 
+</nav>
+<nav>
 <div class="news-container">
     <!-- Notícia 1 -->
     <div class="news-card">
-        <img src="https://conteudo.imguol.com.br/c/esporte/4b/2023/08/23/funcionarios-da-conmebol-fazem-inspecao-no-gramado-do-maracana-a-vespera-de-fluminense-x-olimpia-1692795752338_v2_360x480.jpg.webp" alt="Notícia 1" class="news-thumbnail">
+        <img src="https://conteudo.imguol.com.br/c/esporte/8f/2023/08/24/abel-ferreira-tecnico-do-palmeiras-durante-partida-contra-o-deportivo-pereira-na-libertadores-1692847343249_v2_360x480.jpg.webp    " alt="Notícia 1" class="news-thumbnail">
         <div class="news-content">
-            <h2 class="news-title">Gramado do Maracanã tem ponto crítico em dia de inspeção da Conmebol; veja</h2>
-            <p class="news-excerpt">O gramado do Maracanã apresenta uma suave melhora na véspera do jogo entre Fluminense e Olímpia pela Libertadores, mas ainda possui um preocupante ponto crítico na pequena área do setor Norte.</p>
+            <h2 class="news-title"><a target="_blank" href="https://www.uol.com.br/esporte/colunas/alicia-klein/2023/08/24/goleada-do-palmeiras-abel-prova-por-que-e-arriscado-cornetar-tecnico-bom.htm">Abel prova por que é arriscado cornetar técnico bom</a></h2>
+            <p class="news-excerpt">Quando saiu a escalação do Palmeiras, ontem, com Marcos Rocha e Mayke, alguns analistas e boa parte da SEPTT (turma do amendoim virtual que opera livremente na rede social previamente conhecida como Twitter) não poupou críticas a Abel Ferreira. Até de covardia a opção tática foi chamada.</p>
         </div>
     </div>
     <!-- Notícia 2 -->
     <div class="news-card">
         <img src="https://th.bing.com/th/id/OIF.VF88KT7VSQXwzdZ7Dm5BZQ?pid=ImgDet&rs=1" alt="Notícia 2" class="news-thumbnail">
         <div class="news-content">
-            <h2 class="news-title"><a href="https://www.uol.com.br/esporte/futebol/ultimas-noticias/gazeta-esportiva/2023/08/23/conmebol-mantem-punicao-e-marcelo-desfalca-o-fluminense-na-libertadores.htm">Conmebol mantém punição, e Marcelo desfalca o Fluminense na Libertadores</a></h2>
+            <h2 class="news-title"><a target="_blank" href="https://www.uol.com.br/esporte/futebol/ultimas-noticias/gazeta-esportiva/2023/08/23/conmebol-mantem-punicao-e-marcelo-desfalca-o-fluminense-na-libertadores.htm">Conmebol mantém punição, e Marcelo desfalca o Fluminense na Libertadores</a></h2>
             <p class="news-excerpt">O Fluminense duela contra o Olímpia-PAR por uma vaga na semifinal da Libertadores...</p>
         </div>
     </div>
@@ -69,15 +73,13 @@
     <div class="news-card">
         <img src="https://th.bing.com/th/id/OIP.iopxZJ_LyDxH5YR-MMBlBwHaE8?pid=ImgDet&rs=1" alt="Notícia 3" class="news-thumbnail">
         <div class="news-content">
-            <h2 class="news-title"><a href="https://www.uol.com.br/esporte/futebol/ultimas-noticias/2023/08/23/palmeiras-nao-pode-nem-imaginar-ser-eliminado-pelo-pereira-diz-tironi.htm">Não pode nem imaginar ser eliminado pelo Pereira, diz Tironi</a></h2>
+            <h2 class="news-title"><a target="_blank" href="https://www.uol.com.br/esporte/futebol/ultimas-noticias/2023/08/23/palmeiras-nao-pode-nem-imaginar-ser-eliminado-pelo-pereira-diz-tironi.htm">Não pode nem imaginar ser eliminado pelo Pereira, diz Tironi</a></h2>
             <p class="news-excerpt">Tem que classificar, não sei nem se precisa vencer a partida hoje...</p>
             <h2>-Eduardo Tironi</h2>
         </div>
     </div>
+</nav>
     <!-- ... (outras notícias) ... -->
 </div>
-
-<button id="back-to-top">Voltar ao Topo</button>
-
 </body>
 </html>
