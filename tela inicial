@@ -6,24 +6,25 @@
     <title>Portal do Futebol - Notícias</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        /* Estilos para a navegação de abas */
-        .tab-navigation {
+        /* Estilos para a navegação de abas ... */
+        /* ... (seus estilos) ... */
+
+        /* Estilos para o layout de empilhamento */
+        .news-card {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #f1f1f1;
-            padding: 10px 20px;
+            gap: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
         }
 
-        .tab-navigation a {
-            text-decoration: none;
-            color: #333;
-            display: flex;
-            align-items: center;
+        .news-thumbnail {
+            max-width: 100px;
+            height: auto;
         }
 
-        .tab-navigation a i {
-            margin-right: 5px;
+        .news-content {
+            flex: 1;
+            text-align: justify;
         }
     </style>
 </head>
@@ -60,22 +61,20 @@
     <div class="news-card">
         <img src="https://th.bing.com/th/id/OIF.VF88KT7VSQXwzdZ7Dm5BZQ?pid=ImgDet&rs=1" alt="Notícia 2" class="news-thumbnail">
         <div class="news-content">
-            <h2 class="news-title"><a href="https://www.uol.com.br/esporte/futebol/ultimas-noticias/gazeta-esportiva/2023/08/23/conmebol-mantem-punicao-e-marcelo-desfalca-o-fluminense-na-libertadores.htm"> mantém punição, e Marcelo desfalca o Fluminense na Libertadores</a></h2>
-            <p class="news-excerpt">O Fluminense duela contra o Olímpia-PAR por uma vaga na semifinal da Libertadores. Para este confronto, os tricolores não vão poder contar com o lateral esquerdo Marcelo.
-            O jogador teve a punição de três jogos mantida pela Conmebol. Marcelo tentou a última cartada nesta semana, mas não mudou a decisão da entidade.</p>
+            <h2 class="news-title"><a href="https://www.uol.com.br/esporte/futebol/ultimas-noticias/gazeta-esportiva/2023/08/23/conmebol-mantem-punicao-e-marcelo-desfalca-o-fluminense-na-libertadores.htm">Conmebol mantém punição, e Marcelo desfalca o Fluminense na Libertadores</a></h2>
+            <p class="news-excerpt">O Fluminense duela contra o Olímpia-PAR por uma vaga na semifinal da Libertadores...</p>
         </div>
     </div>
     <!-- Notícia 3 -->
     <div class="news-card">
         <img src="https://th.bing.com/th/id/OIP.iopxZJ_LyDxH5YR-MMBlBwHaE8?pid=ImgDet&rs=1" alt="Notícia 3" class="news-thumbnail">
         <div class="news-content">
-            <h2 class="news-title"><a href="https://www.uol.com.br/esporte/futebol/ultimas-noticias/2023/08/23/palmeiras-nao-pode-nem-imaginar-ser-eliminado-pelo-pereira-diz-tironi.htm">não pode nem imaginar ser eliminado pelo Pereira, diz Tironi</a></h2>
-            <p class="news-excerpt">Tem que classificar, não sei nem se precisa vencer a partida hoje, acho até que vai vencer com alguma tranquilidade, mas tem que passar. O Palmeiras vai ter um adversário enroscado no caminho até a final, que é justamente a semifinal contra Boca Juniors ou Racing. No jogo de hoje, o Palmeiras pegou o adversário que todo mundo queria pegar. O Pereira não tem uma estrutura, um clube, é só o time de futebol, não tem CT, eles treinam no mesmo campo que jogam. É uma estrutura muito tímida perto do que tem o Palmeiras e do poder que tem o Palmeiras com o Abel e esses jogadores. Então, não dá nem para imaginar ser eliminado ou que possa se complicar nessa eliminatória.
-            <br>
+            <h2 class="news-title"><a href="https://www.uol.com.br/esporte/futebol/ultimas-noticias/2023/08/23/palmeiras-nao-pode-nem-imaginar-ser-eliminado-pelo-pereira-diz-tironi.htm">Não pode nem imaginar ser eliminado pelo Pereira, diz Tironi</a></h2>
+            <p class="news-excerpt">Tem que classificar, não sei nem se precisa vencer a partida hoje...</p>
             <h2>-Eduardo Tironi</h2>
-            </p>
         </div>
     </div>
+    <!-- ... (outras notícias) ... -->
 </div>
 
 <button id="back-to-top">Voltar ao Topo</button>
