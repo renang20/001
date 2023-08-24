@@ -44,7 +44,11 @@ nav a:hover {
     display: flex;
     align-items: center;
 }
+.botao{
+    display: flex;
+    margin-left: 1430px;
 
+}
 .search-box {
     padding: 10px;
     border: none;
@@ -85,7 +89,7 @@ nav a:hover {
 }
 
 .news-card {
-    width: calc(33.33% - 20px);
+    width: calc(33.33% - 40px);
     margin-bottom: 20px;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
