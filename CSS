@@ -1,5 +1,5 @@
 /* Reset padrão */
-body, header, nav, ul, li, p, h1, h2, h3, a, div {
+body, header, nav, ul, li, p, h1, h2, h3, a, div, rodape {
     margin: 0;
     padding: 0;
 }
@@ -7,14 +7,22 @@ body, header, nav, ul, li, p, h1, h2, h3, a, div {
 /* Estilos globais */
 body {
     font-family: Arial, sans-serif;
-    background: url('background.jpg') no-repeat center center fixed / cover;
+    margin: 0;
+    align-items: center;
 }
-
+h1{
+    display: flex;
+    align-items: center;
+    background-color: black
+    
+}
 header {
+    display: flex;
+    align-items: center;
     background-color: rgb(0, 0, 0);
-    color: white;
-    text-align: center;
-    padding: 2em 0;
+    color:blockcenter;
+    padding: 1em;
+    
 }
 
 nav {
@@ -36,18 +44,19 @@ nav a {
 }
 
 nav a:hover {
-    color: #f1eae5;
+    color: #7189f5fa;
 }
 
 /* Estilos da barra de pesquisa */
 .search-container {
     display: flex;
     align-items: center;
+    border: 1px;
+    
 }
 .botao{
     display: flex;
-    margin-left: 1430px;
-
+    margin-left: 750px;
 }
 .search-box {
     padding: 10px;
@@ -57,7 +66,7 @@ nav a:hover {
 }
 
 .custom-search-button {
-    background-color: #080808;
+    background-color: black;
     color: white;
     border: none;
     border-radius: 0 5px 5px 0;
@@ -122,4 +131,16 @@ nav a:hover {
 .news-excerpt {
     color: #ccc;
     font-size: 14px;
+}
+.rodape{
+    text-align: center;
+    background-color: black;
+    color: #f1eae5;
+    display: block;
+
+}
+.icones :hover{
+    color: #fffdfc;
+    transform: translateY(-5px);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
