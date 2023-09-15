@@ -1,4 +1,12 @@
-/* Reset padrão */
+body a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #ffffff; /* Define a cor do link */
+  }
+  
+  /* Estilize todos os links quando o mouse passa por cima deles */
+  body a:hover {
+    text-decoration: underline; /* Adicione um sublinhado quando o mouse passar por cima */
+  }
 body, header, nav, ul, li, p, h1, h2, h3, a, div, rodape {
     margin: 0;
     padding: 0;
@@ -21,7 +29,7 @@ header {
     align-items: center;
     background-color: rgb(0, 0, 0);
     color:blockcenter;
-    padding: 1em;
+    padding: 
     
 }
 
@@ -44,7 +52,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #7189f5fa;
+    color: #ffffff;
 }
 
 /* Estilos da barra de pesquisa */
@@ -88,7 +96,34 @@ nav a:hover {
     height: 20px;
     margin-left: 5px;
 }
-
+/* Adicione estilos aos slides e ao layout de notícias */
+.slide-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    background-color: #030303;
+  }
+  
+  .slide-content img {
+    max-width: 45%;
+    height: auto;
+    margin-right: 0px;
+  }
+  
+  .news {
+    color: #f1eae5;
+    flex-grow: 1;
+  }
+  
+  .news h2 {
+    color: #f1eae5;
+    font-size: 20px;
+    margin-bottom:0px;
+  }
+  
+  /* Restante do seu estilo CSS para o carrossel... */
+  
 /* Estilos para os cards de notícias */
 .news-container {
     display: flex;
@@ -109,7 +144,7 @@ nav a:hover {
 
 .news-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 20px rgba(6, 6, 6, 0.3);
 }
 
 .news-thumbnail {
