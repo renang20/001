@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página de Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-form">
+            <h2 class="login-title">Login</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Digite seu email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" required placeholder="Digite sua senha">
+                </div>
+                <div class="form-group">
+                    <div class="remember-forgot">
+                        <label for="remember">
+                            <input type="checkbox" id="remember" name="remember"> Lembrar
+                        </label>
+                        <span><a href="#">Esqueceu a senha</a></span>
+                    </div>
+                </div>
+                <button type="submit" class="rounded-button">Entrar</button>
+                <p>Não possui uma conta? <a href="#"><strong>Crie</strong></a></p>
+            </form>
+        </div>
+        <div class="logo-container">
+            <img src="seu-logo.png" alt="Logo">
+            <p>Troque livros, crie conexões</p>
+        </div>
+    </div>
+</body>
+</html>
