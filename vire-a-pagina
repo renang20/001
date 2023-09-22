@@ -1,38 +1,150 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Página de Login</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            display: flex;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            width: 500px;
+        }
+
+        .left {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .right {
+            flex: 1;
+            background-color: #3498db;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo {
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #3498db;
+            margin-bottom: 20px;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            font-size: 16px;
+            background-color: transparent;
+            outline: none;
+            box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            position: relative;
+        }
+
+        label::after {
+            content: attr(data-label);
+            position: absolute;
+            left: 10px;
+            top: 14px;
+            color: #ccc;
+            pointer-events: none;
+        }
+
+        .remember-forgot {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .button-container {
+            margin-bottom: 20px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 25px;
+            background-color: #3498db;
+            color: #fff;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .create-account {
+            color: #555;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
 </head>
 <body>
     <div class="login-container">
-        <div class="login-form">
-            <h2 class="login-title">Login</h2>
-            <form id="login-form">
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required placeholder="Digite seu email">
-                </div>
-                <div class="form-group">
-                    <label for="password">Senha:</label>
-                    <input type="password" id="password" name="password" required placeholder="Digite sua senha">
-                </div>
-                <div class="form-group">
-                    <div class="remember-forgot">
-                        <label for="remember">
-                            <input type="checkbox" id="remember" name="remember"> Lembrar
-                        </label>
-                        <span><a href="#">Esqueceu a senha</a></span>
-                    </div>
-                </div>
-                <button type="submit" class="rounded-button">Entrar</button>
-                <p>Não possui uma conta? <a href="#"><strong>Crie</strong></a></p>
-            </form>
+        <div class="left">
+            <h1>Login</h1>
+            <div class="input-group">
+                <label data-label="E-mail">
+                    <input type="email" id="email" name="email" required>
+                </label>
+            </div>
+            <div class="input-group">
+                <label data-label="Senha">
+                    <input type="password" id="password" name="password" required>
+                </label>
+            </div>
+            <div class="remember-forgot">
+                <label>
+                    <input type="checkbox" id="remember" name="remember"> Lembrar
+                </label>
+                <a href="#">Esqueceu a senha</a>
+            </div>
+            <div class="button-container">
+                <button id="login-button">Entrar</button>
+            </div>
+            <div class="create-account">
+                Não possui uma conta? <a href="#">Crie</a>
+            </div>
         </div>
-        <div class="logo-container">
-            <img src="seu-logo.png" alt="Logo">
-            <p>Troque livros, crie conexões</p>
+        <div class="right">
+            <div class="logo">
+                <img src="sua-logo.png" alt="Logo">
+            </div>
         </div>
     </div>
+
+    <script>
+        // JavaScript (se necessário)
+    </script>
 </body>
 </html>
