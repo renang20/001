@@ -34,11 +34,13 @@ body {
 }
 
 .login-title {
-    background-color: #84124b; /* Cor de fundo */
-    border-radius: 50px; /* Arredondar cantos */
-    padding: 10px 0; /* Espaçamento interno */
-    margin-bottom: 30px;
-    display: block;
+    background-color: #84124b;
+    ; /* Cor de fundo */
+    border-radius: 20px; /* Arredondar cantos no topo */
+    padding: 5px ; /* Espaçamento interno */
+    margin-top: 0; /* Remover margem superior do título */
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 .login-title h1 {
     color: white; /* Cor do texto */
@@ -52,10 +54,12 @@ body {
 input[type="text"],
 input[type="password"] {
     width: 100%;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    font-size: 20px;
+    padding: 10px;
+    border: none; /* Remover borda */
+    border-radius: 20px; /* Remover arredondamento */
+    background-color: rgba(255, 255, 255, 0.7); /* Cor de fundo com transparência */
+    font-size: 14px;
+    box-shadow: 2px 2px 3px rgba(149, 0, 0, 0.1) inset; /* Adicionar sombra no placeholder */
 }
 
 .checkbox-container {
