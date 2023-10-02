@@ -31,8 +31,9 @@ body {
 }
 
 .cadastro-title {
-    background-color: #FF69B4; /* Cor de fundo */
-    border-radius: 10px 10px; /* Arredondar cantos no topo */
+    background-color: #84124b;
+    ; /* Cor de fundo */
+    border-radius: 20px; /* Arredondar cantos no topo */
     padding: 5px ; /* Espaçamento interno */
     margin-top: 0; /* Remover margem superior do título */
     margin-bottom: 20px;
@@ -57,19 +58,19 @@ input[type="date"] {
     width: 100%;
     padding: 10px;
     border: none; /* Remover borda */
-    border-radius: 5px; /* Remover arredondamento */
+    border-radius: 20px; /* Remover arredondamento */
     background-color: rgba(255, 255, 255, 0.7); /* Cor de fundo com transparência */
     font-size: 14px;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1) inset; /* Adicionar sombra no placeholder */
+    box-shadow: 2px 2px 3px rgba(149, 0, 0, 0.1) inset; /* Adicionar sombra no placeholder */
 }
 
 button {
-    background-color: #FF69B4;
+    background-color: #84124b;
     color: white;
     border: none
-    padding: 10px 20px;
+    padding: 20px 40px;
     font-size: 18px;
-    border-radius: 10px 10px;
+    border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
