@@ -1,68 +1,101 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <!-- Cabeçalho e metadados aqui -->
-</head>
-<style>
-        
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-    header {
-        background-color: #333;
-        color: #fff;
-        text-align: center;
-        padding: 10px;
-    }
-    nav {
-        background-color: #444;
-        color: #fff;
-        text-align: center;
-        padding: 5px;
-    }
-    nav a {
-        color: #fff;
-        text-decoration: none;
-        margin: 0 10px;
-    }
-    section {
-        max-width: 800px;
-        margin: auto;
-        padding: 20px;
-    }
-    article {
-        margin-bottom: 20px;
-        border-bottom: 1px solid #ddd;
-        padding-bottom: 10px;
-    }
-    h2 {
-        margin: 0;
-    }
-    
-</style>
-    <header>
-        <!-- Cabeçalho aqui -->
-    </header>
-    <nav>
-        <a href="index.html">Início</a>
-        <a href="futebol.html">Futebol</a>
-        <a href="basquete.html">Basquete</a>
-        <a href="tenis.html">Tênis</a>
-    </nav>
-    <section>
-        <article>
-            <h2>Título da Notícia de Tênis 1</h2>
-            <p>Texto da notícia de tênis 1...</p>
-            <p><a href="#">Leia mais</a></p>
-        </article>
-        <article>
-            <h2>Título da Notícia de Tênis 2</h2>
-            <p>Texto da notícia de tênis 2...</p>
-            <p><a href="#">Leia mais</a></p>
-        </article>
-        <!-- Adicione mais notícias de tênis aqui -->
-    </section>
-</body>
-</html>
+
+
+body {
+    background-image: url('sua-imagem-de-fundo.jpg'); /* Substitua pela URL da sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+   
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px; /* Deixar mais redondo */
+    padding: 90px; /* Aumentar o espaçamento na parte inferior */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px; /* Aumentar a largura máxima da tela de login */
+    width: 100%;
+}
+
+.logo-container img {
+    width: 250px; /* Largura da logo */
+    margin-bottom: 50px; /* Espaço entre a logo e o título */
+}
+
+.login-form h1 {
+    margin-bottom: 100px;
+    color: #333;
+}
+
+.login-title {
+    background-color: #84124b; /* Cor de fundo */
+    border-radius: 50px; /* Arredondar cantos */
+    padding: 10px 0; /* Espaçamento interno */
+    margin-bottom: 30px;
+    display: block;
+}
+.login-title h1 {
+    color: white; /* Cor do texto */
+    margin: 0;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.checkbox-container {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.checkbox-container label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #84124b;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF4070;
+}
+
+.cadastro-link,
+.senha-link {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.cadastro-link a,
+.senha-link a {
+    text-decoration: none;
+    color: #333;
+}
+
+.cadastro-link a:hover,
+.senha-link a:hover {
+    text-decoration: underline;
+}
